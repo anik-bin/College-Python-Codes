@@ -4,6 +4,8 @@ tuple - ordered unchangable allow duplicates faster
 dictionary - ordered changable no duplicates
 
 lambda function - many arguments but one expression
-map - applies a function to each item in an iterable
-filter - creates a collection of elements from an iterable for which a function returns true
-reduce - apply a function to an iterable and reduce it to a sing;e cummulative value, performs function on first 2 values and then move on
+map - applies a function to each item in an iterable        map(function, iterable)
+filter - creates a collection of elements from an iterable for which a function returns true       filter(function, iterable)
+reduce - apply a function to an iterable and reduce it to a single cummulative value, performs function on first 2 values and then move on
+
+from functools import reduce
