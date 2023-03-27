@@ -9,3 +9,5 @@ filter - creates a collection of elements from an iterable for which a function 
 reduce - apply a function to an iterable and reduce it to a single cummulative value, performs function on first 2 values and then move on
 
 from functools import reduce
+
+reduce(function, iterable)
