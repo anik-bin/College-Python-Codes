@@ -1,0 +1,6 @@
+class: It is a blueprint for creating objects. It defines the properties and methods that an object of that class will have.
+
+Object is an instance of a class and it contains its own data and methods.
+
+A constructor is a special method that is used to create and initialize an object of a class. It is automatically called when an object of a class is created.
+
